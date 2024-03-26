@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>formpt3</title>
+</head>
+<body>
+  <form action="#">
+    <fieldset>
+      <legend>dados do aluno</legend>
+    <label for="nome">nome:</label>
+    <input type="text" id="nome"> <br><br>
+
+    <label for="email">e-mail:</label>
+    <input type="text" id="email"> <br><br>
+    <label for="endereço">endereço:</label>
+    <input type="text" id="endereço">
+
+    <label for="cep">cep:</label>
+    <input type="text" id="cep" placeholder="ex:777-0000"> <br><br>
+    
+  
+    <label for="data">data:</label>
+    <input type="date" id="data"> <br><br>
+  </fieldset> <br>
+  <fieldset>
+    <legend>unidades ios</legend>
+     <label for="listaUnidades">unidades</label>
+    <select name="listaUnidades" id="listaUnidades">
+      <option value="0"selectet disabled>unidade</option>
+      <option value="santana">santana</option>
+      <option value="santo amaro">santo amaro</option>
+      <option value="itaquera">itaquera</option>
+      <option value="diadema">diadema</option>
+    </select> <br><br>
+  
+    <textarea name="tabela1" id="avaliacao" cols="30" rows="10"
+    placeholder="deixe seu comentario aqui:" maxlength="50"></textarea
+    > 
+  </fieldset> 
+  <br><br>
+    <input type="submit" value="enviar">
+  </form>
+</body>
+</html>
